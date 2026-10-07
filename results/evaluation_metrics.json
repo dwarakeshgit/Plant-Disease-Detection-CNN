@@ -1,0 +1,211 @@
+{
+  "evaluation_set": "validation (also used by EarlyStopping/ModelCheckpoint)",
+  "num_images": 1890,
+  "accuracy": 0.9481481481481482,
+  "macro": {
+    "precision": 0.9463198774786257,
+    "recall": 0.9526918495270105,
+    "f1": 0.9484591381948488
+  },
+  "weighted": {
+    "precision": 0.9509746432999289,
+    "recall": 0.9481481481481482,
+    "f1": 0.9484562929780368
+  },
+  "per_class": {
+    "Apple___Apple_scab": {
+      "precision": 0.8102189781021898,
+      "recall": 0.8809523809523809,
+      "f1": 0.844106463878327,
+      "support": 126
+    },
+    "Apple___Black_rot": {
+      "precision": 0.96,
+      "recall": 0.96,
+      "f1": 0.96,
+      "support": 125
+    },
+    "Apple___Cedar_apple_rust": {
+      "precision": 0.9016393442622951,
+      "recall": 1.0,
+      "f1": 0.9482758620689655,
+      "support": 55
+    },
+    "Apple___healthy": {
+      "precision": 0.8802228412256268,
+      "recall": 0.9604863221884499,
+      "f1": 0.9186046511627907,
+      "support": 329
+    },
+    "Blueberry___healthy": {
+      "precision": 0.966789667896679,
+      "recall": 0.8733333333333333,
+      "f1": 0.9176882661996497,
+      "support": 300
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "precision": 1.0,
+      "recall": 0.9095238095238095,
+      "f1": 0.9526184538653366,
+      "support": 210
+    },
+    "Cherry_(including_sour)___healthy": {
+      "precision": 0.976878612716763,
+      "recall": 0.9941176470588236,
+      "f1": 0.9854227405247813,
+      "support": 170
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "precision": 0.9801980198019802,
+      "recall": 0.9611650485436893,
+      "f1": 0.9705882352941176,
+      "support": 103
+    },
+    "Corn_(maize)___Common_rust_": {
+      "precision": 0.9957983193277311,
+      "recall": 0.9916317991631799,
+      "f1": 0.9937106918238994,
+      "support": 239
+    },
+    "Corn_(maize)___healthy": {
+      "precision": 0.9914529914529915,
+      "recall": 0.9957081545064378,
+      "f1": 0.9935760171306209,
+      "support": 233
+    }
+  },
+  "confusion_matrix": [
+    [
+      111,
+      5,
+      3,
+      5,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      2,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      55,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      316,
+      7,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      25,
+      262,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      3,
+      8,
+      0,
+      191,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      169,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      99,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      237,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      232
+    ]
+  ],
+  "class_names": [
+    "Apple___Apple_scab",
+    "Apple___Black_rot",
+    "Apple___Cedar_apple_rust",
+    "Apple___healthy",
+    "Blueberry___healthy",
+    "Cherry_(including_sour)___Powdery_mildew",
+    "Cherry_(including_sour)___healthy",
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___healthy"
+  ]
+}
